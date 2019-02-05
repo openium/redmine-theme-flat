@@ -88,7 +88,7 @@ input[type="button"] {
   -o-background-clip: padding-box;
   -webkit-background-clip: padding;
   background-clip: padding-box;
-  background: #d92e47;
+  background: #487fc1;
   border: none;
   cursor: pointer;
   color: #fff;
@@ -120,7 +120,7 @@ input[type="submit"]:active,
 input[type="button"]:hover,
 input[type="button"]:active {
   background: #fff;
-  color: #d92e47;
+  color: #487fc1;
 }
 button::-moz-focus-inner,
 a.button::-moz-focus-inner,
@@ -522,7 +522,7 @@ h1, h2, h3, h4 {
 }
 
 a, a:link, a:visited {
-  color: #d92e47;
+  color: #487fc1;
   -moz-transition: color 0.5s;
   -o-transition: color 0.5s;
   -webkit-transition: color 0.5s;
@@ -540,11 +540,17 @@ th {
   font-weight: 300;
 }
 
+pre {
+  background-color: #fafafa;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+}
+
 code {
   padding: 0.2em 0.4em;
   font-size: 85%;
-  background-color: #fafafa;
-  border: 1px solid #e2e2e2;
+  /* background-color: #fafafa; */
+  /*border: 1px solid #e2e2e2;*/
 }
 
 #top-menu {
@@ -627,7 +633,7 @@ code {
   transition: border-color 0.5s;
 }
 #main-menu li a.selected, #main-menu li a:hover {
-  border-top: 3px solid #d92e47;
+  border-top: 3px solid #487fc1;
   background: transparent;
 }
 #main-menu li a.selected {
@@ -645,7 +651,7 @@ code {
 }
 
 #content {
-  width: 75%;
+  width: 80%;
   padding: 15px 20px 10px;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -653,8 +659,8 @@ code {
 }
 
 #sidebar {
-  width: 22%;
-  margin-left: 3%;
+  width: 18%;
+  margin-left: 2%;
 }
 #sidebar h3 {
   margin-top: 23px;
@@ -677,25 +683,13 @@ div.issue {
 }
 
 #update {
-  position: fixed;
-  width: 80%;
-  max-width: 800px;
-  max-height: 80%;
-  overflow: auto;
-  background: #FFF;
-  padding: 10px 20px 15px;
-  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
-  margin-left: -40%;
-  left: 50%;
-  top: 10%;
-  z-index: 20;
 }
 @media (min-width: 1000px) {
   #update {
-    margin-left: -400px;
   }
 }
 #update .update-close {
+  display: none;
   float: right;
   border: 1px solid #484848;
   line-height: 0.5;
@@ -714,20 +708,12 @@ div.issue {
   color: #fff;
 }
 #update fieldset.tabular legend {
-  cursor: pointer;
-  color: #d92e47;
-  -moz-transition: color 0.5s;
-  -o-transition: color 0.5s;
-  -webkit-transition: color 0.5s;
-  transition: color 0.5s;
 }
 #update fieldset.tabular legend:hover {
-  color: #ed9aa6;
 }
 #update fieldset.tabular legend small,
 #update fieldset.tabular div,
 #update fieldset.tabular p {
-  display: none;
 }
 #update fieldset.tabular.show-children legend small {
   display: inline;
