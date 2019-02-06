@@ -540,7 +540,7 @@ th {
   font-weight: 300;
 }
 
-pre {
+div#markdownContent > pre {
   background-color: #fafafa;
   border: 1px solid #e2e2e2;
   border-radius: 4px;
