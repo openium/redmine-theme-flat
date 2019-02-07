@@ -757,3 +757,12 @@ table.query-columns td.buttons input[type=button] {
 select[multiple="multiple"] {
   height: auto !important;
 }
+
+#history {
+  padding: 0 6px;
+  margin-bottom: 10px;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  border-radius: 0 0 3px 3px / 0 0 3px 3px;
+}
