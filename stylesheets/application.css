@@ -766,3 +766,228 @@ select[multiple="multiple"] {
   border-left: none;
   border-radius: 0 0 3px 3px / 0 0 3px 3px;
 }
+
+body {
+  font-size:14px;
+  color: #5F6268;
+}
+.openium-header {
+  display:none;
+}
+#content {
+  padding:15px 40px;
+}
+#header {background: #2D5F88;padding:0;}
+#main {background: #ffffff;}
+#header > h1 {
+  margin: 15px 25px;
+}
+#header > h1:before {
+  content: "";
+  vertical-align: middle;
+  width: 200px;
+  height: 55px;
+  background: url(../images/logo-redminium-white.svg) center;
+  background-size: 100% auto;
+
+}
+#header h1 .breadcrumbs {margin-top:15px;}
+#header h1 .breadcrumbs,
+#header h1 .current-project {
+  margin-left: 15px;
+}
+#header h1 .breadcrumbs {display: inline;}
+#quick-search {
+  float: right;
+  padding: 27px;
+}
+#top-menu {
+  background: #2D5F88;
+  height: auto;
+  padding: 5px 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+#top-menu li a {
+  font-weight: normal;
+  line-height: 2.5;
+  font-size: 12px;
+  padding: 5px;
+  display: block;
+  margin:0;
+  opacity: .7;
+}
+#top-menu li a:hover {
+  opacity: 1;
+}
+#top-menu #loggedas {
+  margin:0;
+  padding: 6px 0;
+}
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 5px 7px 5px 7px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-align: center;
+  background-color: #ee2630;
+  border-radius: 12px;
+  position: relative;
+}
+#quick-search #q {
+  width: 130px;
+  height: 35px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+#quick-search input {
+  background: #2D5F88;
+  border: none;
+  color: #FFF;
+  padding: 0px 6px;
+  height: 2.4em;
+}
+.drdn-trigger {
+  width: 100%;
+  height: 35px !important;
+  padding: 5px 20px 5px 10px !important;
+}
+.drdn-content {
+  position: absolute;
+  right: 0px;
+  top: 45px;
+  min-width: 100px;
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  color: #555;
+  z-index: 99;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, .2);
+  overflow: hidden;
+}
+}
+div + .drdn-items {
+  border:0;
+}
+.all-projects {
+  border-top: 1px solid rgba(0, 0, 0, .1);
+}
+.drdn-items>* {padding:8px 10px;}
+.drdn-items>a:hover,
+.drdn-items>a:focus {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, .04);
+  color: #5F6268 !important;
+}
+.drdn-items>*:focus {
+  border:0;
+  outline: none;
+}
+
+.box {
+  padding: 0 15px 29px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  color: #505050;
+  line-height: 1.5em;
+  border: 0;
+  word-wrap: break-word;
+  border-radius: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+h2, h2 a {
+  color:#2D5F88 !important;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}
+h3, h3 a {
+  color:#2D5F88 !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  margin-bottom: 30px;
+  position: relative;
+  margin:0;
+  padding: 10px 0;
+}
+
+a {color:#2D5F88;}
+a:hover, a:link:hover, a:visited:hover {color:#284566;}
+td.green {background-color:#7cbf94 !important;}
+td.orange {background-color: #F3B363 !important;} 
+td.red {background-color: #e16453 !important;}
+td.grey {background-color: #F7F7F7 !important;color:#F7F7F7 !important;}
+
+#footer {display: none;}
+b {font-weight: 400;}
+
+.mypage-box {border: 1px solid rgba(0, 0, 0, .1);}
+#main-menu {padding:0 40px;}
+#main-menu li a {
+  border:0;
+  padding: 10px 15px 10px;
+  opacity: .7;
+}
+#main-menu li a:hover, 
+#main-menu li a.selected, #main-menu li a:hover,
+.new-object {
+  border: 0;
+  opacity: 1 !important;
+}
+#main-menu li a.new-object {
+  background-color: #E99537;
+}
+#main-menu li a.new-object:hover {
+  background-color: #F3B363;
+}
+#main-menu .menu-children {
+  border:0;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, .2);
+}
+
+#main-menu .menu-children li a:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, .04);
+  color: #555 !important;
+}
+textarea, select, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"] {
+  border-radius: 3px;
+  border:1px solid rgba(0, 0, 0, .3);
+}
+.add-filter #add_filter_select {margin-top:-10px;}
+
+table.list tbody tr:hover {
+  background: rgba(0, 0, 0, .1);
+}
+tr.odd.priority-high2:hover {
+  background: #ee9c9c;
+}
+table.list td {
+  text-align: left;
+}
+
+.issue-card {
+  padding: 20px;
+  border: solid 1px #d5d5d5;
+  margin: 20px 5px;
+  word-wrap: break-word;
+  text-align: left;
+  white-space: normal;
+  cursor: pointer;
+  position: relative;
+}
+table.list th, .table-list-header {
+  padding: 10px;
+}
+
+.buttonium {
+  background-color: transparent;
+  border: 0px;
+  padding: 0px 4px;
+  margin-top: -5px;
+  color: #555;
+}
